@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(candy-planet-cartoon-illustration-with-fantasy.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    width: 400px;
+    background:transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    color: aliceblue;
+    border-radius: 10px;
+    padding:30px 40px;
+}
+.main h1{
+    text-align: center;
+    font-size: 35px;
+
+}
+.main .input{
+    width: 100%;
+    height: 50px;
+    
+    margin: 30px 0;
+}
+.input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: solid 2px rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 15px;
+    color:white;
+    padding: 20px 45px 20px 20px;
+}
+.input input::placeholder{
+    color: rgba(255,255,255,0.8);
+}
+.main .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin:-15px 0 15px ;
+}
+.remember-forgot label input{
+    accent-color: white;
+    margin-right: 3px;
+}
+.remember-forgot a{
+    color:rgb(255,255,255);
+    text-decoration: none;
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.main .btn{
+    width: 100%;
+    height: 45px;
+    background: aliceblue;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    font-size: 15px;
+    color: #333;
+    font-weight: 600;
+}
+.main .reg-link{
+    font-size: 14.5px;
+    text-align:center;
+    margin: 20px 0 15px;
+
+}
+.reg-link p a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 600;
+}
+.reg-link p a:hover{
+    text-decoration: underline;
+}
